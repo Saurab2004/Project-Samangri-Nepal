@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Samangri Nepal</title>
+    <link rel="stylesheet" href="LoginSignUp.css">
+</head>
+<body>
+    <div class="header">
+        <img src="Samangri Nepal.png" alt="Samangri Nepal Logo" class="logo">
+        <input type="text" placeholder="Search" class="search">
+        <div class="header-right">
+            <a href="Login.html">Login</a>
+            <a href="Signup.html">Sign Up</a>
+        </div>
+    </div>
+    <div class="form-container">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already Have an Account? <a href="Login.html">Login</a></p>
+    </div>
+</body>
+</html>
